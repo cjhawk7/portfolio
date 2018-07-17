@@ -1,0 +1,83 @@
+*, *:before, *:after {
+  box-sizing: border-box;  
+}
+
+body { 
+  background-image: url("https://wallpaper-house.com/data/out/10/wallpaper2you_396928.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
+  margin: 0;
+  color: white;
+}
+
+.topnav {
+  background-color: orange;
+  width: 100%;
+  opacity: 0.90;
+  border: 2px black;
+  text-align: center;
+  padding: 15px;
+}
+
+.topnav a {
+  color:  white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 2px;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.resume {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  padding: 60px;
+  margin: auto;
+  margin-bottom: -50px;
+}
+
+.projects {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.projects h1 {
+  margin-bottom: 10px;
+}
+
+.skills {
+  font-size: 25px;
+}
+
+.bio {
+  width: 600px;
+  margin-top: 150px;
+  text-align: center;
+  margin: auto;
+}
+
+
+.demoLink {
+  text-decoration: none;
+  color: white;
+}
+
+.navlink:hover {
+  cursor: pointer;
+  color:  black;
+}
+
+.footer {
+  border: 2px black;
+  background-color: orange;
+  text-align: center;
+  padding: 15px;
+}
