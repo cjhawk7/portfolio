@@ -91,7 +91,7 @@ margin-bottom: 30px;
 .demoLink{
   text-decoration: none;
   color: white;
-
+  padding: 15px;
 }
 
 .demoLink:hover {
