@@ -14,12 +14,13 @@ body {
 }
 
 .topnav {
-  background-color: orange;
+  background-color: #ffa31a;
   width: 100%;
-  opacity: 0.90;
-  border: 2px black;
   text-align: center;
-  padding: 15px;
+}
+
+.topnav h1 {
+ margin-top: 0px
 }
 
 .topnav a {
@@ -41,7 +42,17 @@ body {
   display: block;
   padding: 60px;
   margin: auto;
-  margin-bottom: -50px;
+  margin-top: -40px;
+  margin-bottom: -35px;
+  opacity: .55;
+  max-width: 950px;
+  width: 100%
+}
+
+.image:hover {
+  opacity: 1;
+  transform: scale(1.10);
+  transition: 0.3s;
 }
 
 .projects {
@@ -57,27 +68,72 @@ body {
   font-size: 25px;
 }
 
+.frame {
+  margin-top: 20px;
+}
+
+.frame p {
+margin-bottom: 30px;
+}
+
+.frame h3 {
+  margin-top: 75px;
+}
+
 .bio {
-  width: 600px;
+  max-width: 600px;
   margin-top: 150px;
   text-align: center;
   margin: auto;
+  width: 100%
 }
 
-
-.demoLink {
+.demoLink{
   text-decoration: none;
   color: white;
+}
+
+.demoLink:hover {
+  color:#ffa31a;
+  transition: 0.3s;
+}
+
+.footerlinkm {
+margin-right: 17px;
+margin-bottom: 7px;
+}
+
+.footerlinkg {
+margin-bottom: 9px;
+}
+
+.footerlinkm:hover {
+  cursor: pointer;
+  color: grey;
+  transform: scale(1.10);
+}
+
+.footerlinkg:hover {
+  cursor: pointer;
+  color: grey;
+  transform: scale(1.10);
+}
+
+.footerlinkl:hover {
+  cursor: pointer;
+  color: grey;
+  transform: scale(1.10);
 }
 
 .navlink:hover {
   cursor: pointer;
   color:  black;
+  transition: 0.3s;4
 }
 
 .footer {
-  border: 2px black;
-  background-color: orange;
+  background-color: #ffa31a;
   text-align: center;
   padding: 15px;
+  margin-top: 100px;
 }
