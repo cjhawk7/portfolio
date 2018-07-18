@@ -91,6 +91,7 @@ margin-bottom: 30px;
 .demoLink{
   text-decoration: none;
   color: white;
+  padding: 15px;
 }
 
 .demoLink:hover {
@@ -99,13 +100,17 @@ margin-bottom: 30px;
 }
 
 .footerlinkm {
-margin-right: 17px;
-margin-bottom: 7px;
+  margin-right: 17px;
+  margin-bottom: 7px;
 }
 
 .footerlinkg {
-margin-bottom: 9px;
+  margin-bottom: 9px;
 }
+
+.footerlinkl {
+  margin-left: 3px;
+  }
 
 .footerlinkm:hover {
   cursor: pointer;
@@ -128,7 +133,7 @@ margin-bottom: 9px;
 .navlink:hover {
   cursor: pointer;
   color:  black;
-  transition: 0.3s;4
+  transition: 0.3s;
 }
 
 .footer {
