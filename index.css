@@ -1,13 +1,15 @@
-*, *:before, *:after {
-  box-sizing: border-box;  
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
-body { 
+body {
   background-image: url("https://wallpaper-house.com/data/out/10/wallpaper2you_396928.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   margin-top: 0px;
   margin: 0;
   color: white;
@@ -17,24 +19,26 @@ body {
   background-color: #ffa31a;
   width: 100%;
   text-align: center;
+  position: fixed;
+  top: 0;
 }
 
 .topnav h1 {
- margin-top: 0px
+  margin-top: 0px;
 }
 
 .topnav a {
-  color:  white;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   margin-top: 2px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Source Serif Pro", serif;
 }
 
 .resume {
-  margin-top: 100px;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -44,14 +48,14 @@ body {
   margin: auto;
   margin-top: -40px;
   margin-bottom: -35px;
-  opacity: .55;
+  opacity: 0.55;
   max-width: 950px;
-  width: 100%
+  width: 100%;
 }
 
 .image:hover {
   opacity: 1;
-  transform: scale(1.10);
+  transform: scale(1.1);
   transition: 0.3s;
 }
 
@@ -73,7 +77,7 @@ body {
 }
 
 .frame p {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .frame h3 {
@@ -85,17 +89,17 @@ margin-bottom: 30px;
   margin-top: 150px;
   text-align: center;
   margin: auto;
-  width: 100%
+  width: 100%;
 }
 
-.demoLink{
+.demoLink {
   text-decoration: none;
   color: white;
   padding: 15px;
 }
 
 .demoLink:hover {
-  color:#ffa31a;
+  color: #ffa31a;
   transition: 0.3s;
 }
 
@@ -110,29 +114,29 @@ margin-bottom: 30px;
 
 .footerlinkl {
   margin-left: 3px;
-  }
+}
 
 .footerlinkm:hover {
   cursor: pointer;
   color: grey;
-  transform: scale(1.10);
+  transform: scale(1.1);
 }
 
 .footerlinkg:hover {
   cursor: pointer;
   color: grey;
-  transform: scale(1.10);
+  transform: scale(1.1);
 }
 
 .footerlinkl:hover {
   cursor: pointer;
   color: grey;
-  transform: scale(1.10);
+  transform: scale(1.1);
 }
 
 .navlink:hover {
   cursor: pointer;
-  color:  black;
+  color: black;
   transition: 0.3s;
 }
 
