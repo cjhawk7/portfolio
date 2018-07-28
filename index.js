@@ -9,3 +9,9 @@ $(".mainpage").on("click", function() {
   $(".projectpage").addClass("hidden");
   $(".mainpage").addClass("hidden");
 });
+
+$(".mainbutton").on("click", function() {
+  $(".intropage").addClass("hidden");
+  $(".projectpage").removeClass("hidden");
+  $(".mainpage").removeClass("hidden");
+});
