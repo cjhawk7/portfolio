@@ -7,7 +7,6 @@
 body {
   background-image: url("https://wallpaper-house.com/data/out/10/wallpaper2you_396928.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
   margin-top: 0px;
@@ -41,7 +40,7 @@ body {
 }
 
 .resume {
-  margin-top: 125px;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -59,6 +58,7 @@ body {
   opacity: 1;
   transform: scale(1.05);
   transition: 0.3s;
+  cursor: default;
 }
 
 .projects {
@@ -68,6 +68,10 @@ body {
 
 .projects h1 {
   margin-bottom: 10px;
+}
+
+.mainpage {
+  text-decoration: none;
 }
 
 .skills {
@@ -110,11 +114,77 @@ body {
   text-align: center;
   padding: 1px;
   margin-top: 100px;
+  width: 100%;
+  /* bottom: 0; */
+  /* position: absolute; */
 }
 
 .footerlink:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
+
+html CSS Result EDIT ON html,
+body {
+  text-align: center;
+  padding-top: 40px;
+
+  -webkit-perspective: 700px;
+  -moz-perspective: 700px;
+  -ms-perspective: 700px;
+  perspective: 700px;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+button {
+  display: inline-block;
+  position: relative;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-family: "Open Sans", Helvetica;
+  border-radius: 4px;
+  border-bottom: 1px solid #ffa31a;
+  background: #ffa31a;
+  color: #fff;
+  box-shadow: 0px 0px 0px rgba(102, 65, 6, 0.1);
+
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  top: -10px;
+  box-shadow: 0px 10px 10px rgba(15, 165, 60, 0.2);
+
+  -webkit-transform: rotateX(20deg);
+  -moz-transform: rotateX(20deg);
+  -ms-transform: rotateX(20deg);
+  transform: rotateX(20deg);
+}
+
+button:active {
+  top: 0px;
+  box-shadow: 0px 0px 0px rgba(15, 165, 60, 0);
+  background: rgba(20, 224, 133, 1);
 }
 
 @media (max-width: 450px) {
