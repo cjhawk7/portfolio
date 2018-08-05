@@ -9,7 +9,7 @@ main {
 }
 
 body {
-  background-image: url("wallpaper.jpg");
+  background-image: url("wallpaperaltered.jpg");
   background-repeat: no-repeat;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
@@ -48,18 +48,10 @@ body {
   transition: 0.3s;
 }
 
-.imagehead {
-  display: block;
-  margin: auto;
-  height: 200px;
-  margin-bottom: 25px;
-}
-
 .resume {
   text-align: center;
   margin: auto;
   padding-top: 75px;
-  margin-bottom: 75px;
   max-width: 400px;
 }
 
