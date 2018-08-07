@@ -28,7 +28,7 @@ body {
 }
 
 .topnav {
-  background-color: #ffa31a;
+  background-color: #21444b;
   width: 100%;
   text-align: center;
   position: fixed;
@@ -132,12 +132,12 @@ body {
 }
 
 .demoLink:hover {
-  color: #ffa31a;
+  color: #21444b;
   transition: 0.3s;
 }
 
 .footer {
-  background-color: #ffa31a;
+  background-color: #21444b;
   text-align: center;
   padding: 1px;
   width: 100%;
@@ -145,9 +145,12 @@ body {
   bottom: 0;
 }
 
+.footer a {
+  color: white;
+}
+
 .footerlink:hover {
   cursor: pointer;
-  transform: scale(1.1);
 }
 
 .hidden {
