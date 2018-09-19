@@ -15,7 +15,7 @@ main {
 
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("wavy.jpg");
+    url("img/wavy.jpg");
   background-repeat: no-repeat;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
@@ -91,6 +91,10 @@ body {
   margin-bottom: 10px;
 }
 
+.intropage {
+  padding-bottom: 50px;
+}
+
 .skills {
   font-size: 25px;
 }
@@ -141,7 +145,7 @@ body {
 .footer {
   background-color: #21444b;
   text-align: center;
-  padding: 1px;
+  padding: 8px;
   width: 100%;
   position: absolute;
   bottom: 0;
