@@ -50,9 +50,10 @@ body {
 
 .topnav a:hover {
   cursor: pointer;
-  color: black;
+  color: rgb(112, 104, 104);
   transition: 0.3s;
 }
+
 
 .resume {
   text-align: center;
@@ -68,14 +69,17 @@ body {
 .image {
   display: block;
   margin: auto;
-  max-width: 950px;
+  max-width: 700px;
   width: 100%;
   border: 1px solid grey;
+  margin-bottom: 25px;
 }
 
 .image:hover {
   opacity: 1;
-  cursor: default;
+  cursor: pointer;
+  transform: scale(1.10);
+  transition: .5s;
 }
 
 .projects {
@@ -106,6 +110,7 @@ body {
 
 .frame h3 {
   margin-top: 75px;
+  padding-bottom: 25px;
 }
 
 .bio {
@@ -202,7 +207,7 @@ button:hover:after {
 @media (max-width: 450px) {
   .topnav a {
     font-family: "Oswald", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     float: right;
     margin-top: 17px;
@@ -222,7 +227,7 @@ button:hover:after {
 @media (min-width: 450px) {
   .topnav a {
     font-family: "Oswald", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     float: right;
     margin-top: 15px;
